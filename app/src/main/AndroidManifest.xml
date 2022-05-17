@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test">
         <activity
+            android:name=".Splash.AddRoomsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Rooms.RoomsActivity"
             android:exported="false" />
         <activity
